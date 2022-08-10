@@ -1,6 +1,8 @@
 # CppPerformance
+
 C and cpp Performance test
 
+```
 lingzhang@lingzhang-e470:~/a00-1$ g++ test_vtable.cpp -O3
 lingzhang@lingzhang-e470:~/a00-1$ ./a.out 
 run_dynamic(d)                                              :  1340293238 ns total,  1340293248.00 ns per byte  or 0.00 GB/s 
@@ -23,3 +25,4 @@ run_dynamic(d)                                              :  1345130214 ns tot
 run_crtp<CRTPImplementation>(crtp)                          :  359081790 ns total,  359081792.00 ns per byte  or 0.00 GB/s 
 10665866680000
 10665866680000
+```
